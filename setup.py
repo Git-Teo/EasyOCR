@@ -13,14 +13,14 @@ def readme():
     return README
 
 setup(
-    name='easyocr',
+    name='easyocrrk',
     packages=['easyocr'],
     include_package_data=True,
-    version='1.7.0',
+    version='1.0.3',
     install_requires=requirements,
     entry_points={"console_scripts": ["easyocr= easyocr.cli:main"]},
     license='Apache License 2.0',
-    description='End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution',
+    description='Route Konnect adapted End-to-End Multi-Lingual Optical Character Recognition (OCR) Solution',
     long_description=readme(),
     long_description_content_type="text/markdown",
     author='Rakpong Kittinaradorn',
